@@ -1,0 +1,18 @@
+
+<button id="hoverBtn">Clicked....!!!</button>
+
+<script>
+    let button = document.getElementById("hoverBtn");
+
+    button.addEventListener("mouseover" , function (){
+        button.style.backgroundColor = "lightblue";
+    });
+
+
+    button.addEventListener("mouseout" , function(){
+        button.style.backgroundColor = "lightgray";
+        alert("button hovered")
+    });
+
+
+</script>
